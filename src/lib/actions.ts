@@ -87,7 +87,7 @@ export async function signInAction(
   console.log("Signing in user:", validatedFields.data.email);
   await new Promise(resolve => setTimeout(resolve, 1500));
 
-  if (validatedFields.data.email !== "test@example.com" || validatedFields.data.password !== "password123") {
+  if (validatedFields.data.email !== "alo450843@gmail.com" || validatedFields.data.password !== "password123") {
       return { success: false, error: "Invalid credentials." };
   }
 
